@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="manifest" href="manifest.json">
 <title>Valt Daizora</title>
 <link rel="icon" href="valt.daizora.png" type="image/x-icon">
 <link rel="stylesheet" href="FFB.css">
@@ -33,7 +34,7 @@
 </head>
 <body>
 <img src="valt.daizora.png" style="margin-top: 60px; border-radius: 200px;" width="300">
-<p style="color:#5d00ff; font-weight: bolder; font-size: 50px;" >VALT DAIZORA <span style="color:black;">aka</span> Baruch</p>
+<p style="color:#5d00ff; font-weight: bolder; font-size: 50px;" >Baruch <span style="color:black;">aka</span> Valt Daizora</p>
 <p style="display: block; font-family: Arial; font-size: 15px;">~"The Blader And Youtuber Which Is Invincible!"~</p>
 <p style="font-size: 20px; margin-top: 20px;"><span style="color:#5d00ff;">Valt Daizora</span> Is A Christian, Blader, Youtuber & Web Developer</p>
 <P style="font-size: 20px;">I Created These 3 Websites. And These Are...
@@ -57,3 +58,8 @@
 </body>
 <p style="margin-top: 30px;">&#169; Copyright <span style="color:#5D00FF;">Valt Daizora</span>. All right reserved</p>
 </html>
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' });
+  }
+  </script>
