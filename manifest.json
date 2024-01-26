@@ -4,8 +4,8 @@
     "short_name": "Valt Daizora",
     "description": "The Blader And Youtuber Which Is Invincible! A Christian, Blader, Youtuber & Web Developer",
     "start_url": "/",
-    "background_color": "#2f3d58",
-    "theme_color": "#2f3d58",
+    "background_color": "#FFFFFF",
+    "theme_color": "#5d00ff",
     "orientation": "any",
     "display": "standalone",
     "icons": [
