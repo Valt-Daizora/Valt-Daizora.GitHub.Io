@@ -9,6 +9,7 @@
 body {
   background-color: white;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 .container {
 width: 100%;
@@ -26,105 +27,6 @@ position:absolute;
 color:black;
 top: 20%;
 }
-header a {
-  text-decoration: none;
-}
-.sm {
-  margin-bottom: 50px;
-  margin-top: 20px;
-  background-color: white;
-    }
-    .sm a{
-      display: inline-flex;
-      text-decoration: none;
-      font-size: 25px;
-      width: 60px;
-      height: 60px;
-      color: white;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      margin: 0 7px;
-    }
-.sm a::before{
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 25%;
-  z-index: -1;
-  transition: transform .3s ease-in;
-}
-.sm a:nth-child(1)::before{
-  background: red;
-}
-.sm a:nth-child(1)::before{
-  background: #5865f2;;
-}
-.sm a:nth-child(2)::before{
-  background: #1c96e9;
-}
-.sm a:nth-child(4)::before{
-  background: white;
-}
-.sm a:nth-child(5)::before{
-  background: #5865f2;
-}
-.sm a:hover::before{
-  transform: scale(0);
-}
-.sm a i{
-  transition: transform .3s ease-in;
-}
-.sm a:nth-child(1):hover i{
-  background: red;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(1):hover i{
-  background: red;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(2):hover i{
-  background: white;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(3):hover i{
-  background:#5865f2; 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(4):hover i{
-  background: #1c96e9;;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.sm a:nth-child(5):hover i{
-  background: #5865f2;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.5);
-}
-.banner-card {
-max-width: 100%;
-height: auto;
-}
-.banner-card img {
-width: 100%;
-opacity: 0.3;
-}
-.banner-text {
-position: absolute;
-top:20%;
-}
-
 header {
   padding: 0 20px;
   background-color: white;
