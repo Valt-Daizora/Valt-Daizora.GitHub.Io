@@ -633,3 +633,10 @@ height:100px;
     .options-list.active{
       height: 180px;
     }
+    #preloader{
+      background: #ffffff url(Loading.gif) no-repeat center center;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
