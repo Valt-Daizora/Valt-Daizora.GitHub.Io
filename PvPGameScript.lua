@@ -95,3 +95,28 @@ function findTarget(character)
     end
     return nil
 end
+
+
+
+Open Roblox Studio:
+
+Launch Roblox Studio on your computer.
+Insert a Script:
+
+You can create a script by navigating to the Explorer panel.
+Right-click on a part or object in your game, then select Insert Object > Script or LocalScript, depending on your needs.
+Write Lua Code:
+
+Once the script is created, you can double-click it to open the script editor.
+Write your Lua code in the editor.
+Run the Script:
+
+Click the Play button at the top of Roblox Studio to execute your game and the script within it.
+For debugging, use breakpoints or print statements to verify your code execution.
+
+
+
+Open Roblox Studio: Start the application on your computer.
+Insert a Script: Add a Script or LocalScript to your game through the Explorer.
+Write Lua Code: Open the script editor and write your Lua code.
+Run the Script: Click the Play button in Roblox Studio to execute the game and the script. Use print statements or debugging features for testing.
